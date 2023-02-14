@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define ROOT sqrt ((b*b)-(4*a*c))
+
+int main ()
+{
+    float a,b,c,x_1,x_2;
+    printf("enter a number\n:");
+    scanf("%f",&a);
+
+    printf("enter a second number\n");
+    scanf("%f",&b);
+
+    printf("enter a third number\n");
+    scanf("%f",&c);
+
+    x_1=(-b+ROOT)/2*a;
+    x_2=(-b-ROOT)/2*a;
+
+    printf("x_1=%f\nx_2=%f",x_1,x_2);
+
+}
+    return 0;
+}
+
+
+
+
